@@ -1,0 +1,88 @@
+.container{
+    width: 550px;
+    margin: 50px auto;
+}
+.main-container{
+    padding: 15px 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px gray;
+    border-radius: 8px;
+}
+
+.card-design{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+.profile-img{
+    text-align: center;
+}
+
+.profile-img img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+
+.profile-info h4{
+    margin: 5px 0;
+}
+.profile-info h5{
+    margin-top: 0;
+    color: gray;
+}
+.profile-info h3{
+    margin: 0;
+    font-size: 1.3rem;
+    color: crimson;
+}
+
+.edit-btn{
+    margin: 10px auto;
+    border: none;
+    padding: 5px 8px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.update-form{
+    background-color: white;
+    box-shadow: 1px 1px 3px gray;
+    padding: 20px 10px;
+    border-radius: 8px;
+    display: none;
+}
+
+.info-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info-form input{
+    width: 100%;
+    margin: 0 5px;
+    padding: 5px;
+}
+.img-url{
+    margin-right: 13px;
+}
+.img-url input{
+    width: 98%;
+    margin: 10px 5px;
+    padding: 5px;
+}
+.change-btn{
+    width: 100%;
+    margin: auto;
+    border: none;
+    padding: 5px 8px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
